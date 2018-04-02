@@ -1,5 +1,5 @@
 .container {
-  background-color: white;
+  background-color: $white;
   display: relative;
   padding: 0px 30px;
 }
@@ -13,11 +13,11 @@
   height: 195px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
-  color: white;
+  color: $white;
   position: relative;
   margin-top: 20px;
   margin-bottom: 50px;
-  background-color: white;
+  background-color: $white;
 }
 .card-user {
   position: absolute;
@@ -53,15 +53,18 @@
   right: 0;
   width: 100%;
   z-index: 2;
-  background: black;
+  background: $black;
   opacity: 0;
 }
 .card-link:hover {
   opacity: 0.1;
 }
 
-.row h3 {
+.row {
+
+  h3 {
     font-size: 26px;
     font-weight: bold;
     text-align: center;
+  }
 }
